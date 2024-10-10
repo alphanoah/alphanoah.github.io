@@ -1,0 +1,19 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Go - Tag - AN's blog</title><link>https://alphanoah.github.io/tags/go/</link><description>Go - Tag - AN's blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 10 Oct 2024 12:00:45 +0800</lastBuildDate><atom:link href="https://alphanoah.github.io/tags/go/" rel="self" type="application/rss+xml"/><item><title>Go common faqs</title><link>https://alphanoah.github.io/posts/go/simples/</link><pubDate>Thu, 10 Oct 2024 12:00:45 +0800</pubDate><author>AN</author><guid>https://alphanoah.github.io/posts/go/simples/</guid><description><![CDATA[<h1 id="常见问题">常见问题</h1>
+<h2 id="1-报错-404-not-found-或-server-response-not-found-xxxcompackagekitv1">1、 报错 <code>404 Not Found</code> 或 <code>server response: not found: xxx.com/packagekit@v1</code></h2>
+<figure>
+</figure>
+
+<p>设置公司私有依赖仓库</p>
+<pre tabindex="0"><code>go env -w GOPRIVATE=&#34;g.xxx.com&#34;
+go env -w GONOPROXY=&#34;g.xxx.com&#34;
+go env -w GONOSUMDB=&#34;g.xxx.com&#34;
+</code></pre><h2 id="2-报错-wire-xxx-could-not-import-xxx-invalid-package-name-">2、 报错 <code>wire: xxx: could not import xxx (invalid package name: “”)</code></h2>
+<figure>
+</figure>
+
+<p>执行：go mod tidy</p>
+<p>思路：先点蓝色部分，会跳到具体报错代码行，鼠标放到报错位置会提示具体报错问题</p>]]></description></item><item><title>Go Error set</title><link>https://alphanoah.github.io/posts/go/errors/</link><pubDate>Thu, 10 Oct 2024 12:00:01 +0800</pubDate><author>AN</author><guid>https://alphanoah.github.io/posts/go/errors/</guid><description><![CDATA[<h1 id="错误集">错误集</h1>
+<h2 id="1-unsolicited-response-received-on-idle-http-channel-starting-with-http11-502-bad-gateway">1. <code>Unsolicited response received on idle HTTP channel starting with &quot;HTTP/1.1 502 Bad Gateway</code></h2>
+<p><a href="https://github.com/golang/go/issues/19895" target="_blank" rel="noopener noreffer ">https://github.com/golang/go/issues/19895</a> | Unsolicited response received on idle HTTP channel… · Issue #19895 · golang/go
+<a href="https://blog.csdn.net/zhizhengguan/article/details/90234211" target="_blank" rel="noopener noreffer ">https://blog.csdn.net/zhizhengguan/article/details/90234211</a> | iris ：Unsolicited response received on idle HTTP channel starting with “[]\n“； err=_OceanStar的学习笔记的博客-CSDN博客
+<a href="https://gist.github.com/cespare/f4352a11bac5cced9458" target="_blank" rel="noopener noreffer ">https://gist.github.com/cespare/f4352a11bac5cced9458</a> | Go proxy race.</p>]]></description></item></channel></rss>

@@ -1,0 +1,27 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Home - Tag - AN's blog</title><link>https://alphanoah.github.io/tags/home/</link><description>Home - Tag - AN's blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 10 Oct 2024 11:49:55 +0800</lastBuildDate><atom:link href="https://alphanoah.github.io/tags/home/" rel="self" type="application/rss+xml"/><item><title>Home Assistant</title><link>https://alphanoah.github.io/posts/home/home-assistant/</link><pubDate>Thu, 10 Oct 2024 11:49:55 +0800</pubDate><author>AN</author><guid>https://alphanoah.github.io/posts/home/home-assistant/</guid><description><![CDATA[<h1 id="home-assistant">Home Assistant</h1>
+<p><a href="https://home-assistant-china.github.io/" target="_blank" rel="noopener noreffer ">Home Assistant 中文网</a></p>
+<h2 id="安装">安装</h2>
+<h3 id="软件">软件</h3>
+<ul>
+<li><a href="https://www.virtualbox.org/wiki/Downloads" target="_blank" rel="noopener noreffer ">virtual box</a></li>
+<li>VirtualBox Extension Pack!!!</li>
+<li><a href="https://www.home-assistant.io/installation/macos" target="_blank" rel="noopener noreffer ">教程</a></li>
+</ul>
+<h2 id="homeassistant-将米家设备接入-homekit-控制">HomeAssistant 将米家设备接入 HomeKit 控制</h2>
+<h3 id="安装-hacs">安装 HACS</h3>
+<h3 id="方法1代理走不了行不通"><del>方法1（代理走不了行不通）</del></h3>
+<ul>
+<li><a href="https://hacs.xyz/docs/setup/download" target="_blank" rel="noopener noreffer ">文档</a></li>
+<li>命令说明
+<ul>
+<li><code>wget -O - https://get.hacs.xyz | bash -</code></li>
+<li>-O的含义是把后面网址下载后，改成一个指定的名称，如果后面没有跟着一个名字，而是“-”，则表示将下载后的内容输出到标准输出，也就是输出到屏幕上。</li>
+<li>然后通过|，传递给bash执行</li>
+<li>减号&quot;-&ldquo;就是代表标准输出/标准输入, 视命令而定. &ldquo;-&ldquo;代替stdin和stdout的用法,stdin就是标准输入,stdout就是标准。
+http://http://raw.staticdn.net/hacs/get/main/get
+GitHub raw 域名并非 <a href="http://github.com" target="_blank" rel="noopener noreffer ">http://github.com</a> 而是 <a href="http://raw.githubusercontent.com" target="_blank" rel="noopener noreffer ">http://raw.githubusercontent.com</a>，上方的 GitHub 加速如果不能加速这个域名，那么可以使用
+Static CDN 提供的反代服务。</li>
+</ul>
+</li>
+</ul>
+<p>将 <a href="http://raw.githubusercontent.com" target="_blank" rel="noopener noreffer ">http://raw.githubusercontent.com</a> 替换为 <a href="http://raw.staticdn.net" target="_blank" rel="noopener noreffer ">http://raw.staticdn.net</a> 即可加速。 &mdash;脚本内需要外网不可行</p>]]></description></item></channel></rss>
