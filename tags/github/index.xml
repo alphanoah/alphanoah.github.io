@@ -177,25 +177,4 @@
 </figure>
 
 <h2 id="一使用-hugo-搭建个人博客">一、使用 Hugo 搭建个人博客</h2>
-<p>该部分不做具体说明，详情可参考<a href="https://gohugo.io/getting-started/quick-start/" target="_blank" rel="noopener noreffer ">Hugo官方文档</a></p>
-<h3 id="hugo-常用命令">Hugo 常用命令</h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1"># 创建新网站 xxx</span>
-</span></span><span class="line"><span class="cl">hugo new site xxx
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 网站主题更换，本网站使用的是LoveIt</span>
-</span></span><span class="line"><span class="cl"><span class="c1"># 1.克隆主题到themes目录，把主题存储库作为网站目录的子模块</span>
-</span></span><span class="line"><span class="cl">git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt
-</span></span><span class="line"><span class="cl"><span class="c1"># 2.向网站配置文件指示当前主题，或直接修改配置文件 (config.toml) 主题字段`theme`</span>
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;theme = &#39;LoveIt&#39;&#34;</span> &gt;&gt; config.toml
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 生成新的文章草稿</span>
-</span></span><span class="line"><span class="cl">hugo new posts/my-first-post.md
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 启动开发服务器</span>
-</span></span><span class="line"><span class="cl">hugo server
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 发布网站 在项目根目录中创建整个静态网站</span>
-</span></span><span class="line"><span class="cl">hugo
-</span></span></code></pre></div><h2 id="二通过-github-action-自动部署博客到-github-pages">二、通过 GitHub Action 自动部署博客到 GitHub Pages</h2>
-<p>通过将代码推送到源码 repo，触发 GitHub Actions 自动运行 Hugo 工作流文件<code>.github/workflows/gh-pages.yml</code>，若运行成功后，则会自动发布到 GitHub
-Pages repo。</p>]]></description></item></channel></rss>
+<p>该部分不做具体说明，详情可参考<a href="https://gohugo.io/getting-started/quick-start/" target="_blank" rel="noopener noreffer ">Hugo官方文档</a></p>]]></description></item></channel></rss>

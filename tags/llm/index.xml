@@ -157,11 +157,4 @@
 <li><a href="https://beebom.com/best-chatgpt-prompts/" target="_blank" rel="noopener noreffer ">适用于各种工作流程的 110 个最佳 ChatGPT 提示</a></li>
 <li><a href="https://writesonic.com/blog/chatgpt-prompts/" target="_blank" rel="noopener noreffer ">215+ ChatGPT提示</a></li>
 <li><a href="https://influencermarketinghub.com/chatgpt-prompts/" target="_blank" rel="noopener noreffer ">50 个很棒的 ChatGPT 提示</a></li>
-</ul>]]></description></item><item><title>ChatGPT Prompt 学习笔记</title><link>https://alphanoah.github.io/posts/prompt-engineering-note/</link><pubDate>Tue, 02 May 2023 19:29:35 +0800</pubDate><author>AN</author><guid>https://alphanoah.github.io/posts/prompt-engineering-note/</guid><description><![CDATA[<h1 id="chatgpt-prompt-学习笔记">ChatGPT Prompt 学习笔记</h1>
-<h2 id="llm">LLM</h2>
-<p>LLM（Large Language Models，大型语言模型） 分为两种类型：</p>
-<ul>
-<li>基础LLM(base LLM)：基于文本训练数据，训练出预测下一个单词能力的模型，其通常是在互联网和其他来源的大量数据上训练的。</li>
-<li>指令微调LLM(instruction tuned LLM)：通过在基础LLM的基础上使用大量文本数据进行微调，进一步使用指令和人类反馈的强化学习技术来提高帮助性和遵循指令的能力。</li>
-</ul>
-<p>与基础LLM相比，指令微调LLM更少输出有问题的文本，如毒性内容。</p>]]></description></item></channel></rss>
+</ul>]]></description></item><item><title>ChatGPT Prompt 学习笔记</title><link>https://alphanoah.github.io/posts/prompt-engineering-note/</link><pubDate>Tue, 02 May 2023 19:29:35 +0800</pubDate><author>AN</author><guid>https://alphanoah.github.io/posts/prompt-engineering-note/</guid><description>&lt;h1 id="chatgpt-prompt-学习笔记">ChatGPT Prompt 学习笔记&lt;/h1></description></item></channel></rss>
