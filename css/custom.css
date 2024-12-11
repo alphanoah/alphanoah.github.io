@@ -1,0 +1,17 @@
+
+/*.single .content figure {*/
+/*    margin: .5rem;*/
+/*    text-align: center;*/
+/*}*/
+
+.imgWid30 {
+    width: 30% !important;
+}
+
+.imgWid20 {
+    width: 20% !important;
+}
+
+.imgWid10 {
+    width: 10% !important;
+}
