@@ -14,4 +14,13 @@
 
 .imgWid10 {
     width: 10% !important;
+    margin: 10px 0 50px !important;
+    padding: .75rem!important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* 平滑过渡效果 */
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .1), 0 3px 5px 0 rgba(0, 0, 0, .06) !important;
+}
+
+.imgWid10:hover {
+    transform: scale(1.2); /* 放大到1.2倍 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* 添加阴影 */
 }
